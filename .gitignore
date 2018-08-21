@@ -1,0 +1,13 @@
+.vs*
+*.suo
+*.user
+bin/
+obj/
+*.log
+*.obj
+*.lastbuildstate
+*.tlog
+*.idb
+*.pdb
+Debug/
+packages/

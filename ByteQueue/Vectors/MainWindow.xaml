@@ -1,0 +1,56 @@
+﻿<Window x:Class="Vectors.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vectors"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Free action -->
+        <Canvas Height="15" Width="15" Grid.Row="0" Grid.Column="0">
+            <Polygon Points="5.156,0, 0,5.156, 5.156,10.313, 10.313,5.156" Stroke="#4f0000" Fill="White" />
+            <Polygon Points="3.566,1.602, 0,5.168, 3.566,8.734, 7.132,5.168" Fill="#4f0000" />
+            <Polygon Points="3.413,3.261, 1.5,5.136, 3.413,7.126, 5.346,5.156" Stroke="White" Fill="White" />
+        </Canvas>
+
+        <!-- Reaction -->
+        <Canvas Height="15" Width="15" Grid.Row="0" Grid.Column="1">
+            <Polygon Points="6.102,0, 0.784,5.156, 6.102,10.313, 11.42,5.156" Stroke="#4f0000" Fill="White" />
+            <Polygon Points="8.519,1.704, 4.906,5.317, 8.519,8.931, 12.133,5.317" Stroke="#4f0000" Fill="#4f0000" />
+            <Polygon Points="3.613,1.704, 0,5.317, 3.613,8.931, 7.226,5.317" Stroke="#4f0000" Fill="#4f0000" />
+            <Polygon Points="6.086,2.474, 3.273,5.287, 6.086,8.099, 8.899,5.287" Stroke="White" Fill="White" />
+        </Canvas>
+
+        <!-- One action -->
+        <Canvas Height="15" Width="15" Grid.Row="1" Grid.Column="0">
+            <Polygon Points="3.421,8.745, 0,5.324, 3.421,1.904, 6.842,5.324" Fill="#4f0000" />
+            <Polygon Points="11.585,5.304, 6.281,0, 4.996,1.285, 9.012,5.301, 4.993,9.32, 6.281,10.608" Stroke="#4f0000" Fill="#4f0000" />
+        </Canvas>
+
+        <!-- Two actions -->
+        <Canvas Height="15" Width="15" Grid.Row="1" Grid.Column="1">
+            <Polygon Points="3.421,8.745, 0,5.324, 3.421,1.904, 6.842,5.324" Fill="#4f0000" />
+            <Polygon Points="11.585,5.304, 6.281,0, 4.996,1.285, 9.012,5.301, 4.993,9.32, 6.281,10.608" Stroke="#4f0000" Fill="#4f0000" />
+            <Polygon Points="17.085,5.304, 11.781,0, 10.496,1.285, 14.512,5.301, 10.493,9.32, 11.581,10.608" Stroke="#4f0000" Fill="#4f0000" />
+        </Canvas>
+
+        <!-- Three actions -->
+        <Canvas Height="15" Width="15" Grid.Row="1" Grid.Column="2">
+            <Polygon Points="3.421,8.745, 0,5.324, 3.421,1.904, 6.842,5.324" Fill="#4f0000" />
+            <Polygon Points="11.585,5.304, 6.281,0, 4.996,1.285, 9.012,5.301, 4.993,9.32, 6.281,10.608" Stroke="#4f0000" Fill="#4f0000" />
+            <Polygon Points="17.085,5.304, 11.781,0, 10.496,1.285, 14.512,5.301, 10.493,9.32, 11.581,10.608" Stroke="#4f0000" Fill="#4f0000" />
+            <Polygon Points="22.585,5.304, 17.281,0, 15.896,1.285, 19.912,5.301, 15.893,9.32, 16.981,10.608" Stroke="#4f0000" Fill="#4f0000" />
+        </Canvas>
+    </Grid>
+</Window>
