@@ -44,8 +44,6 @@ namespace Update_XML
                 File.WriteAllText(dat_file, contents);
             }
 
-            nope
-
             Console.Write("Done");
         }
     }
