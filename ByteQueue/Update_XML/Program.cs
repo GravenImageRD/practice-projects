@@ -43,8 +43,6 @@ namespace Update_XML
                 contents = contents.Replace(@" />", @"/>");
                 File.WriteAllText(dat_file, contents);
             }
-
-            Console.Write("Done");
         }
     }
 }
