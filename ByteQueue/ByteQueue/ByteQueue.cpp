@@ -4,7 +4,7 @@
 #include "stdafx.h"
 
 // Comment for testing
-
+//One more time with feelign.
 #define AVAILABLE_MEMORY			2048
 #define AVAILABLE_Q_COUNT			64
 #define Q_MEMORY_FOOTPRINT			3
