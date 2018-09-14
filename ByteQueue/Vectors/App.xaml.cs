@@ -14,5 +14,6 @@ namespace Vectors
     public partial class App : Application
     {
         // Making a change.
+        // Making another change.
     }
 }
